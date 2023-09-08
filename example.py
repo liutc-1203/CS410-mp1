@@ -9,6 +9,7 @@ def tokens_lowercase(doc):
     #leave the rest of the code as is
     tok.set_content(doc.content())
     tokens, counts = [], []
+    
     for token, count in trigrams.items():
         counts.append(count)
         tokens.append(token)
