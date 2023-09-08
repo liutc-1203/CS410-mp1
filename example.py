@@ -1,6 +1,6 @@
 import metapy
 
-doc = metapy.index.Document()
+# doc = metapy.index.Document()
 # doc.content("I said that I can't believe that it only costs $19.95!")
 
 # tok = metapy.analyzers.ICUTokenizer()
@@ -9,7 +9,7 @@ doc = metapy.index.Document()
 # tokens = [token for token in tok]
 # print(tokens)
 
-doc.content("I said that I can't believe that it only costs $19.95! I could only find it for more than $30 before.")
+# doc.content("I said that I can't believe that it only costs $19.95! I could only find it for more than $30 before.")
 # tok.set_content(doc.content())
 # tokens = [token for token in tok]
 # print(tokens)
